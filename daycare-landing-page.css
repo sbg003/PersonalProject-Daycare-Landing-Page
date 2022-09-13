@@ -1,0 +1,180 @@
+.background{
+    background-color: rgb(250, 247, 207);
+}
+
+.logo-container{
+    height: ;
+    width: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 400px;
+    width: 300px;
+    margin: 25px;
+}
+
+.picture{
+    height: 400px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+.sp-container{
+
+}
+
+.services{
+    height:80px;
+    width: 160px;
+    background: rgb(13, 192, 180);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: bold;
+}
+
+.services-p{
+    height: 400px;
+    width: 800px;
+    background: rgb(236, 218, 129);
+    border-radius: 50px 50px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing{
+    height:80px;
+    width: 160px;
+    background: rgb(13, 192, 180);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: bold;
+}
+
+.pricing-p{
+    height: 400px;
+    width: 800px;
+    background: rgb(236, 218, 129);
+    border-radius: 50px 50px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ac-container{
+
+}
+
+.about{
+    height:80px;
+    width: 160px;
+    background: rgb(13, 192, 180);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: bold;
+}
+
+.about-p{
+    height: 400px;
+    width: 800px;
+    background: rgb(236, 218, 129);
+    border-radius: 50px 50px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact{
+    height:80px;
+    width: 160px;
+    background: rgb(13, 192, 180);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: bold;
+}
+
+.contact-p{
+    height: 400px;
+    width: 800px;
+    background: rgb(236, 218, 129);
+    border-radius: 50px 50px 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location{
+    height:80px;
+    width: 160px;
+    background: rgb(13, 192, 180);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: bold;
+}
+
+.location-image{
+    height: 400px;
+    width: 800px;
+}
+
+.photo{
+    height:80px;
+    width: 160px;
+    background: rgb(13, 192, 180);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font: bold;
+}
+
+.images{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(236, 218, 129)
+}
+
+.i1{
+    padding: 10px;
+}
+
+.i2{
+    padding: 10px;
+}
+
+.i3{
+    padding: 10px;
+}
+
+.i4{
+    padding: 10px;
+}
+
+.i5{
+    padding: 10px;
+}
+
+.i6{
+    padding: 10px;
+}
