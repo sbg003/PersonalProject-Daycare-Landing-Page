@@ -18,6 +18,35 @@
 
 }
 
+body {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.loading-animation {
+    overflow: hidden;
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    } to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
 .background{
     font-family: arial;
 }
@@ -32,7 +61,16 @@
 }
 
 .logo-left{
+    animation: slide-l ease 1s;
+}
 
+@keyframes slide-l {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .logo-right{
@@ -43,6 +81,7 @@
 
 .logo{
     margin-bottom: 20px;
+    animation: slide-l ease 1s;
 }
 
 
@@ -54,11 +93,20 @@
 
 
 .logo-h1{
+    animation: slide-r ease 2s;
+}
 
+@keyframes slide-r {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .logo-h2{
-
+    animation: slide-r ease 3s;
 }
 
 .navbar{
@@ -183,6 +231,23 @@
     color: var(--text-color-3);
     font: bold;
     margin-bottom: 20px;
+}
+
+/*scolling animations for blue oval elements*/
+@keyframes wipe-enter {
+    0%  {
+        transform: scale(0, 0.025);
+    }
+    50% {
+        transform: scale(1, 0.025);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .about, .looking, .why, .location, .services, .pricing, .photo, .am, .contact {
+        animation-name: wipe-enter;
+        animation-duration: 3s;
+    }
 }
 
 .about-p{
