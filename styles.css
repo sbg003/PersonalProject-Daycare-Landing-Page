@@ -289,8 +289,7 @@
 }
 
 .location-image{
-    height: 300px;
-    width: 500px;
+    width: 90%;
     background-color: var(--primary-color);
     padding: 15px;
     border: thick solid var(--neutral-color);
@@ -299,7 +298,7 @@
 /*Services & Prices HTML*/
 
 .sp-container{
-
+    margin: auto;
 }
 
 .services-container{
@@ -369,7 +368,8 @@
 /*Photo Gallery HTML*/
 
 .photo-container{
-
+    width: 80%;
+    margin: auto;
 }
 
 .photo{
@@ -387,31 +387,10 @@
 
 .images{
     background-color: var(--primary-color);
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
-.i1{
-
-}
-
-.i2{
-
-}
-
-.i3{
-
-}
-
-.i4{
-
-}
-
-.i5{
-
-}
-
-.i6{
-
-}
 
 /*Contact Us HTML*/
 
@@ -483,28 +462,34 @@
     line-height: 1.4;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 499px) and (max-width: 999px) {
     .logo-container {
+        width: 90%;
         position: static;
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         margin-bottom: 20px;
     }
 
     .logo-left {
+        width: 45%;
         display: flex;
-        justify-content: flex-start;
+        flex-direction: column;
+        margin-bottom: 25px;
     }
 
     .logo-right {
+        width: 45%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
+        padding-left: 75px;
         margin-top: 50px;
         margin-right: 200px;
-        margin-left: 20px;
+        margin-bottom: 50px;
+        margin-left: 50px;
     }
 
     .logo {
@@ -516,8 +501,11 @@
     .picture {
         margin-top: 25px;
         margin-bottom: 10px;
+        margin-left: 30px;
     }
+}
 
+@media screen and (min-width: 499px){
     .navbar {
         position: static;
         display: flex;
@@ -637,4 +625,169 @@
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: brown;
     }
+
+    .al-container {
+        width: 90%;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .about-container {
+        width: 45%;
+        margin-right: 15px;
+    }
+
+    .about-p {
+        border-radius: 50px 50px 0 0;
+    }
+
+    .looking-container {
+        width: 45%;
+        margin-left: 15px;
+    }
+
+    .looking-p {
+        border-radius: 50px 50px 0 0;
+    }
+
+    .why-container {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .why-p {
+        border-radius: 0 50px 0 50px;
+    }
+
+    .location-container {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        Justify-content: center;
+    }
+
+    .location-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sp-container {
+        width: 90%;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .services-container {
+        width: 45%;
+        margin-right: 15px;
+    }
+
+    .services-p {
+        border-radius: 50px 50px 0 0;
+    }
+
+    .pricing-container {
+        width: 45%;
+        margin-left: 15px;
+    }
+
+    .pricing-p {
+        border-radius: 50px 50px 0 0;
+    }
+
+    .photo-container {
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+
+    .i {
+        height: 300px;
+        width: 500px;
+        margin: 5px;
+        transition: height 0.1s, width 0.1s;
+    }
+
+    .i:hover {
+        height: 350px;
+        width: 550px;
+    }
+
+    .ac-container {
+        width: 90%;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .am-container {
+        width: 45%;
+        margin-right: 15px;
+    }
+
+    .am-p {
+        border-radius: 50px 50px 0 0;
+    }
+
+    .contact-container {
+        width: 45%;
+        margin-left: 15px;
+    }
+
+    .contact-p {
+        border-radius: 50px 50px 0 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .logo-container {
+        width: 90%;
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .logo-left {
+        width: 45%;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 25px;
+    }
+
+    .logo-right {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        margin-right: 200px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+    }
+
+    .logo {
+        transform: rotate(-20deg);
+        margin-bottom: 100px;
+        margin: 25px;
+    }
+
+    .picture {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+
 }
